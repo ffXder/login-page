@@ -1,13 +1,18 @@
 const wrapper = document.querySelector('.wrapper');
 const loginLink = document.querySelector('.login-link');
-const btnPopup = document.querySelector('.btnLogin-popup'); 
+const registerLink = document.querySelector('.register-link');
+const buttonPopUp = document.querySelector('.btnLogin-popup');
 const closeIcon = document.querySelector('.close-icon');
 
-loginLink.addEventListener('click', ()=> {
+registerLink.addEventListener('click', ()=> {
     wrapper.classList.add('active');
 });
 
-btnPopup.addEventListener('click', ()=> {
+loginLink.addEventListener('click', ()=> {
+    wrapper.classList.remove('active');
+});
+
+buttonPopUp.addEventListener('click', ()=> {
     wrapper.classList.add('active-popup');
 });
 
