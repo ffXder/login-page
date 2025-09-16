@@ -1,2 +1,2 @@
 # Login Page 
-## using HTML + CSS + JavaScript
+## I design and created a simple login page using HTML + CSS + JavaScript
